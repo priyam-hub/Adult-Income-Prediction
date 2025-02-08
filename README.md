@@ -1,3 +1,19 @@
+<div align="center">
+
+# 🤖 Adult Income Prediction
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+*Transform your social media presence with AI-powered content generation*
+
+[Features](#features) • [Installation](#installation) • [Documentation](#documentation) • [Usage](#usage) • [Contributing](#contributing)
+
+</div>
+
+---
+
 # Executive Summary
 This project provides an in-depth exploratory data analysis (EDA) and machine learning modeling for the Adult Income dataset. The objective is to analyze demographic and economic factors influencing income levels and predict whether an individual earns more than $50K per year. Key insights include:
 
