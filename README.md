@@ -81,6 +81,11 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 #### Skewness and Kurtosis
 ![Skewness and Kurtosis](results/Skewness_and_Kurtosis.png)
 
+## **Bivariate Analysis**
+
+#### Count Plot Numerical Variables with Target Variables
+![Count Plot](results/Bivariate_Analysis.png)
+
 # Key Findings
 ### 1. Demographic Analysis
 **Finding**: Education level significantly correlates with income.
