@@ -67,11 +67,20 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 
 # Exploratory Data Analysis
 
+### Univariate Analysis
+
 #### Count Plot of Target Variable
 ![Target Variable](results/Count_Plot_of_Target_Variable.png)
 
 #### Count Plot of Numerical Variable
 ![Numerical Variable](results/Count_plot_of_numerical_variables.png)
+
+#### Count Plot of Categorical Variable
+![Categorical Variable](results/Count_plot_of_categorical_variables.png)
+
+#### Skewness and Kurtosis
+![Skewness and Kurtosis](results/Skewness_and_Kurtosis.png)
+
 
 # Key Findings
 ### 1. Demographic Analysis
