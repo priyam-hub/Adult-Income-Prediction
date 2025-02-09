@@ -86,7 +86,7 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 ![Feature Importance](results/Feature_Importance.png)
 
 
-#### Most Important Feature
+### Most Important Feature
 
 **Relationship**: Strongly influences income classification, with stable relationships often correlating with higher income.
 
