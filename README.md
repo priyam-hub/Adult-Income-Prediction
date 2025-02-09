@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Adult Income Prediction
+# 🤖 **Adult Income Prediction**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -12,7 +12,7 @@
 
 ---
 
-# Executive Summary
+# **Executive Summary**
 This project provides an in-depth exploratory data analysis (EDA) and machine learning modeling for the Adult Income dataset. The objective is to analyze demographic and economic factors influencing income levels and predict whether an individual earns more than $50K per year. Key insights include:
 
 - Education level and occupation significantly impact income levels.
@@ -24,7 +24,7 @@ These findings help in understanding income distribution and improving targeted 
 
 ---
 
-# Problem Statement
+# **Problem Statement**
 To analyze and predict whether an individual earns more than $50K annually based on demographic and economic attributes. The analysis aims to:
 
 - Identify key factors influencing income levels.
@@ -32,7 +32,7 @@ To analyze and predict whether an individual earns more than $50K annually based
 - Provide insights into income disparities across different demographic groups.
 ---
 
-# Dataset
+# **Dataset**
 The Adult Income Dataset is a widely used dataset for classification tasks, primarily aimed at predicting whether an individual's income exceeds $50K per year based on various demographic and employment-related attributes. The dataset was originally extracted from the 1994 U.S. Census Bureau database.
 
 ### Dataset Link:
@@ -54,7 +54,7 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 - **Target Variable**: income (<=50K or >50K)
 ---
 
-# Methodology
+# **Methodology**
 ### Data Preprocessing
 - Handled missing values and removed duplicates.
 - Encoded categorical variables using OneHotEncoder and LabelEncoder.
@@ -65,9 +65,9 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 - **Machine Learning Models**: Logistic Regression, Decision Tree, Naive Bayes, Support Vector Classifier
 ---
 
-# Exploratory Data Analysis
+# **Exploratory Data Analysis**
 
-### Univariate Analysis
+## **Univariate Analysis**
 
 #### Count Plot of Target Variable
 ![Target Variable](results/Count_Plot_of_Target_Variable.png)
@@ -80,7 +80,6 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 
 #### Skewness and Kurtosis
 ![Skewness and Kurtosis](results/Skewness_and_Kurtosis.png)
-
 
 # Key Findings
 ### 1. Demographic Analysis
