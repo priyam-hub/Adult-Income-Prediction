@@ -92,17 +92,12 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 ![Pair Plot](results/Pair_Plot.png)
 
 # Key Findings
-### 1. Demographic Analysis
-**Finding**: Education level significantly correlates with income.
-**Implication**: Higher education leads to better job opportunities and higher earnings.
 
-### 2. Occupation Trends
-**Finding**: People in managerial and professional roles have a higher probability of earning above $50K.
-**Implication**: Upskilling and career advancement in these sectors can lead to better financial outcomes.
-
-### 3. Capital Gain & Age Impact
-**Finding**: Older individuals with capital gains are more likely to earn above $50K.
-**Implication**: Investments and financial planning contribute to income growth over time.
+| Category            | Finding | Implication |
+|---------------------|------------------------------------------------------------|--------------------------------------------------------------|
+| **Demographic Analysis** | Education level significantly correlates with income. | Higher education leads to better job opportunities and higher earnings. |
+| **Occupation Trends** | People in managerial and professional roles have a higher probability of earning above $50K. | Upskilling and career advancement in these sectors can lead to better financial outcomes. |
+| **Capital Gain & Age Impact** | Older individuals with capital gains are more likely to earn above $50K. | Investments and financial planning contribute to income growth over time. |
 
 # Feature Importance
 ![Feature Importance](results/Feature_Importance.png)
