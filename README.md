@@ -91,7 +91,6 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 #### Pair Plot of All the Variables
 ![Pair Plot](results/Pair_Plot.png)
 
-
 # Key Findings
 ### 1. Demographic Analysis
 **Finding**: Education level significantly correlates with income.
@@ -104,6 +103,27 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 ### 3. Capital Gain & Age Impact
 **Finding**: Older individuals with capital gains are more likely to earn above $50K.
 **Implication**: Investments and financial planning contribute to income growth over time.
+
+# Feature Importance
+![Feature Importance](results/Feature_Importance.png)
+
+| Feature          | Importance |
+|-----------------|------------|
+| relationship    | 0.3557     |
+| age_group      | 0.2981     |
+| marital.status | 0.2810     |
+| education.num  | 0.2213     |
+| workclass      | 0.1187     |
+| sex           | 0.0807     |
+| occupation     | 0.0717     |
+| native.country | 0.0513     |
+| race          | 0.0406     |
+| hours.per.week | 0.0174     |
+| education     | 0.0093     |
+| age           | 0.0032     |
+| capital.loss  | 0.0007     |
+| capital.gain  | 0.0003     |
+| fnlwgt        | 0.0000     |
 
 # Model Performance
 | Model                 | Accuracy  | Precision | Recall |
