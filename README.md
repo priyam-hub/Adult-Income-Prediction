@@ -21,6 +21,7 @@ This project provides an in-depth exploratory data analysis (EDA) and machine le
 - Logistic Regression and Decision Tree models perform well for classification.
 
 These findings help in understanding income distribution and improving targeted policy-making and financial planning.
+
 ---
 
 # Problem Statement
@@ -62,6 +63,15 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 ### Tools Used
 - **Python Libraries**: Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, SciPy
 - **Machine Learning Models**: Logistic Regression, Decision Tree, Naive Bayes, Support Vector Classifier
+---
+
+# Exploratory Data Analysis
+
+#### Count Plot of Target Variable
+![Target Variable](results/Count_Plot_of_Target_Variable.png)
+
+#### Count Plot of Numerical Variable
+![Numerical Variable](results/Count_plot_of_numerical_variables.png)
 
 # Key Findings
 ### 1. Demographic Analysis
