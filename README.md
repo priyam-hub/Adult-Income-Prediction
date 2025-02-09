@@ -6,8 +6,6 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-*Transform your social media presence with AI-powered content generation*
-
 [Features](#features) • [Installation](#installation) • [Documentation](#documentation) • [Usage](#usage) • [Contributing](#contributing)
 
 </div>
@@ -23,6 +21,7 @@ This project provides an in-depth exploratory data analysis (EDA) and machine le
 - Logistic Regression and Decision Tree models perform well for classification.
 
 These findings help in understanding income distribution and improving targeted policy-making and financial planning.
+---
 
 # Problem Statement
 To analyze and predict whether an individual earns more than $50K annually based on demographic and economic attributes. The analysis aims to:
@@ -30,13 +29,29 @@ To analyze and predict whether an individual earns more than $50K annually based
 - Identify key factors influencing income levels.
 - Develop predictive models to classify income groups.
 - Provide insights into income disparities across different demographic groups.
+---
 
 # Dataset
-The dataset consists of demographic and economic attributes such as:
+The Adult Income Dataset is a widely used dataset for classification tasks, primarily aimed at predicting whether an individual's income exceeds $50K per year based on various demographic and employment-related attributes. The dataset was originally extracted from the 1994 U.S. Census Bureau database.
 
-- **Demographics**: Age, Gender, Race, Marital Status, Education Level
-- **Economic Factors**: Occupation, Workclass, Capital Gain, Capital Loss, Hours per Week
-- **Target Variable**: Income (<=50K or >50K)
+### Dataset Link:
+```bash
+https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
+```
+### Dataset Details
+- **Source**: Kaggle
+- **Size**: 48,842 records (32,561 training + 16,281 test)
+- **Attributes**: 14 features + 1 target variable
+- **Task**: Binary classification (<=50K or >50K income)
+
+### Features:
+- **Demographics**: age, sex, race, native-country
+- **Education**: education, education-num
+- **Employment**: workclass, occupation, hours-per-week
+- **Financial**: capital-gain, capital-loss
+- **Marital Status & Relationships**: marital-status, relationship
+- **Target Variable**: income (<=50K or >50K)
+---
 
 # Methodology
 ### Data Preprocessing
