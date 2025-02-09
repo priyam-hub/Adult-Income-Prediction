@@ -83,8 +83,14 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 
 ## **Bivariate Analysis**
 
-#### Count Plot Numerical Variables with Target Variables
+#### Count Plot Categorical Variables with Target Variables
 ![Count Plot](results/Bivariate_Analysis.png)
+
+## **Multi-Variate Analysis**
+
+#### Pair Plot of All the Variables
+![Pair Plot](results/Pair_Plot.png)
+
 
 # Key Findings
 ### 1. Demographic Analysis
