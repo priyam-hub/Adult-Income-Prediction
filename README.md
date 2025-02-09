@@ -65,31 +65,13 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 - **Machine Learning Models**: Logistic Regression, Decision Tree, Naive Bayes, Support Vector Classifier
 ---
 
-# **Exploratory Data Analysis**
+# Visualization:
 
-## **Univariate Analysis**
+### Count Plot of the Target Variable:
+![Count Plot](results/Count_Plot_of_Target_Variable.png)
 
-#### Count Plot of Target Variable
-![Target Variable](results/Count_Plot_of_Target_Variable.png)
-
-#### Count Plot of Numerical Variable
-![Numerical Variable](results/Count_plot_of_numerical_variables.png)
-
-#### Count Plot of Categorical Variable
-![Categorical Variable](results/Count_plot_of_categorical_variables.png)
-
-#### Skewness and Kurtosis
+### Skewness and Kurtosis:
 ![Skewness and Kurtosis](results/Skewness_and_Kurtosis.png)
-
-## **Bivariate Analysis**
-
-#### Count Plot Categorical Variables with Target Variables
-![Count Plot](results/Bivariate_Analysis.png)
-
-## **Multi-Variate Analysis**
-
-#### Pair Plot of All the Variables
-![Pair Plot](results/Pair_Plot.png)
 
 # Key Findings
 
@@ -103,23 +85,10 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 # Feature Importance
 ![Feature Importance](results/Feature_Importance.png)
 
-| Feature          | Importance |
-|-----------------|------------|
-| relationship    | 0.3557     |
-| age_group      | 0.2981     |
-| marital.status | 0.2810     |
-| education.num  | 0.2213     |
-| workclass      | 0.1187     |
-| sex           | 0.0807     |
-| occupation     | 0.0717     |
-| native.country | 0.0513     |
-| race          | 0.0406     |
-| hours.per.week | 0.0174     |
-| education     | 0.0093     |
-| age           | 0.0032     |
-| capital.loss  | 0.0007     |
-| capital.gain  | 0.0003     |
-| fnlwgt        | 0.0000     |
+
+#### Most Important Feature
+
+**Relationship**: Strongly influences income classification, with stable relationships often correlating with higher income.
 ---
 
 # Different Model Fitting - Insights
@@ -170,6 +139,7 @@ Best Parameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 5, '
 
 # Conclusion
 This analysis provides key insights into the demographic and economic factors affecting income levels. The findings can be used for financial planning, policy-making, and improving career growth strategies. Future work could explore additional features and more advanced machine learning techniques to improve prediction accuracy.
+---
 
 <div align="center">
 
