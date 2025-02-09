@@ -98,6 +98,7 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 | **Demographic Analysis** | Education level significantly correlates with income. | Higher education leads to better job opportunities and higher earnings. |
 | **Occupation Trends** | People in managerial and professional roles have a higher probability of earning above $50K. | Upskilling and career advancement in these sectors can lead to better financial outcomes. |
 | **Capital Gain & Age Impact** | Older individuals with capital gains are more likely to earn above $50K. | Investments and financial planning contribute to income growth over time. |
+---
 
 # Feature Importance
 ![Feature Importance](results/Feature_Importance.png)
@@ -119,14 +120,48 @@ https://www.kaggle.com/datasets/wenruliu/adult-income-dataset
 | capital.loss  | 0.0007     |
 | capital.gain  | 0.0003     |
 | fnlwgt        | 0.0000     |
+---
 
-# Model Performance
-| Model                 | Accuracy  | Precision | Recall |
-|----------------------|-----------|-----------|--------|
-| Logistic Regression  | 85.2%     | 0.78      | 0.75   |
-| Decision Tree        | 83.5%     | 0.76      | 0.73   |
-| Naive Bayes          | 80.1%     | 0.72      | 0.70   |
-| SVM                  | 84.0%     | 0.77      | 0.74   |
+# Different Model Fitting - Insights
+
+| Model | Accuracy (%) | Precision | Recall | F1 Score (%) | Notes |
+|-------------------------|------------|-----------|--------|-------------|--------------------------------------------------------------|
+| **Gaussian Naive Bayes** | 79.85 | Balanced | Balanced | 77.13 | Good overall performance. |
+| **Multinomial Naive Bayes** | 78.01 | Lower than recall | Higher recall | 74.15 | Lower precision affects F1 score. |
+| **Bernoulli Naive Bayes** | 78.48 | Balanced | Balanced | 78.20 | Precision and recall are almost equal. |
+| **SVM (RBF Kernel)** | 78.97 | High | Lower recall | 72.35 | Good precision, but recall is low. |
+| **SVM (Polynomial Kernel, Degree 2)** | 78.21 | High | Slightly lower recall | 71.16 | High precision but recall is slightly lower. |
+| **SVM (Polynomial Kernel, Degree 3)** | 77.70 | Higher than recall | Lower recall | 70.27 | Precision is better than recall. |
+| **Decision Tree (Gini Index)** | 81.92 | Balanced | Balanced | 81.93 | **Best model due to highest accuracy and balanced metrics.** |
+| **Decision Tree (Entropy)** | 81.20 | Balanced | Balanced | 81.21 | Performs well but slightly lower than Gini Index. |
+
+### Best Model for Final Fitting:  
+✅ **Decision Tree (Gini Index)** is the best due to the highest accuracy and balanced metrics.  
+
+# Final Model after Hyperparameter Tuning and Evaluation
+
+#### Best Parameter Set
+```bash
+Best Parameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 20}
+```
+
+#### Error Metric Table
+
+| Metric | Value |
+|-----------------------------|--------|
+| **Type 1 Error (False Positive Rate)** | 0.0661 |
+| **Type 2 Error (False Negative Rate)** | 0.3763 |
+| **Accuracy** | 0.8610 |
+| **Recall** | 0.8610 |
+| **Precision** | 0.8555 |
+| **F1 Score** | 0.8566 |
+
+#### Confusion Matrix
+![Confusion Matrix](results/Final_CM.png)
+
+#### ROC Curve
+![ROC Curve](results/ROC_Curve.png)
+---
 
 # Recommendations
 - **Education & Training**: Encouraging professional education and skill development can enhance income levels.
