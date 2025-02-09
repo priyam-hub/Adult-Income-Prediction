@@ -140,13 +140,14 @@ Best Parameters: {'criterion': 'gini', 'max_depth': 10, 'min_samples_leaf': 5, '
 
 # Conclusion
 This analysis provides key insights into the demographic and economic factors affecting income levels. The findings can be used for financial planning, policy-making, and improving career growth strategies. Future work could explore additional features and more advanced machine learning techniques to improve prediction accuracy.
+
 ---
 
 <div align="center">
 
 **Made with ❤️ by Priyam Pal - AI and Data Science Engineer**
 
-[↑ Back to Top](#)
+[↑ Back to Top](#Executive Summary)
 
 </div>
 
