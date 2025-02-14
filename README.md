@@ -143,11 +143,3 @@ This analysis provides key insights into the demographic and economic factors af
 
 ---
 
-<div align="center">
-
-**Made with ❤️ by Priyam Pal - AI and Data Science Engineer**
-
-[↑ Back to Top]()
-
-</div>
-
